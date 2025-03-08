@@ -32,9 +32,7 @@ export default function TextForm(props) {
         window.speechSynthesis.speak(msg);
     }
     const handleCopy = () =>{
-        // let text = document.getElementById("myBox").value;
         navigator.clipboard.writeText(text);
-        // document.getSelection().removeAllRanges();
         props.showAlert("Copied to Clipboard","success")
     }
     const handleSpace = () => {
