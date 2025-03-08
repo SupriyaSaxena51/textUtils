@@ -76,6 +76,7 @@ function App() {
           <Routes>
             <Route exact path="/about" element={<About mystyle={mystyle} mode={mode}/>} />
             <Route exact path="/" element={<TextForm heading="Enter the text to analyse" showAlert={showAlert} mode={mode} btnColor={btnColor} mystyle={mystyle} />} />
+            <Route exact path="/textify" element={<TextForm heading="Enter the text to analyse" showAlert={showAlert} mode={mode} btnColor={btnColor} mystyle={mystyle} />} />
           </Routes>
       </div>
       </BrowserRouter>
